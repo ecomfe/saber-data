@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "phantomjs": "~1.9.7-1",
-    "express": "~3.5.1",
+    "express": "~3.5.1"
   },
   "license": "BSD",
   "repository": "git://github.com/ecomfe/saber-data.git",
