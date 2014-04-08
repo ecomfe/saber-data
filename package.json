@@ -1,0 +1,30 @@
+{
+  "name": "saber-data",
+  "version": "0.0.1",
+  "description": "常用数据逻辑封装",
+  "main": "main",
+  "maintainers": [
+    {
+      "name": "junmer",
+      "email": "junmer@foxmail.com"
+    }
+  ],
+  "dependencies": {
+    "saber-ajax": "~0.1.2",
+    "saber-promise": "~0.1.2",
+    "saber-emitter": "~0.3.1",
+    "saber-lang": "~0.3.0"
+  },
+  "scripts": {
+    "pretest": "node test/ws.js start",
+    "test": "phantomjs test/run-jasmine.js http://localhost:8848/test/runner.html",
+    "posttest": "node test/ws.js stop"
+  },
+  "devDependencies": {
+    "phantomjs": "~1.9.7-1",
+    "express": "~3.5.1",
+  },
+  "license": "BSD",
+  "repository": "git://github.com/ecomfe/saber-data.git",
+  "bugs": "https://github.com/ecomfe/saber-data/issues"
+}
